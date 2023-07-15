@@ -2,7 +2,7 @@ import { useState } from 'react';
 import {IconContext} from 'react-icons';
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaTimes } from "react-icons/fa";
-import {SiAlwaysdata} from "react-icons/Si"
+import {SiAlwaysdata} from "react-icons/si"
 import {data} from '../../data/NavBarData';
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks,
 NavItem, 
