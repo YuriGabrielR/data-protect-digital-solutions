@@ -10,7 +10,7 @@ export const heroOne:Props = {
 	description: 'We have designed and implemented the best cloud security solutions',
 	buttonLabel: 'Find More',
 	imgStart: 'start',
-	$img: './src/assets/svg/Deal.svg',
+	$img: './assets/svg/Deal.svg',
 	start: 'true',
 };
 
@@ -26,7 +26,7 @@ export const heroTwo:Props = {
 
 	linkTo: '/more',
 	imgStart: 'start',
-	$img: './src/assets/svg/Connection.svg',
+	$img: './assets/svg/Connection.svg',
 	start: 'true',
 };
 
@@ -43,6 +43,6 @@ export const heroThree:Props = {
 
 	linkTo: '/download',
 	imgStart: '',
-	$img: './src/assets/svg/ChartUp.svg',
+	$img: './assets/svg/ChartUp.svg',
 	start: 'true',
 };

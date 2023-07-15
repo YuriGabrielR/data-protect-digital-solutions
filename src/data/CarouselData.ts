@@ -1,35 +1,21 @@
 
-// export type PropsSlider = {
-// 	$arrows:boolean; 
-// 	$focusOnselect: boolean;
-// 	$slidesToShow: number;
-// 	$acessability: boolean;
-// 	$responsive: {
-// 		$breakpoint: number;
-// 		$settings: {
-// 			$slidesToShow: number;
-// 		};
-// 	}[];
-
-// }
-
 
 export const data = [
 	{
 		title: 'What our clients say',
 		description:
 			'Our clients happily stay with our services for more several years now. See real reviews from our clients.',
-		image: './src/assets/images/clients.jpg',
+		image: './assets/images/clients.jpg',
 	},
 	{
 		title: 'Our security ',
 		description: 'Learn more about our security systems to make sure your data is always safe',
-		image: './src/assets/images/security.jpg',
+		image: './assets/images/security.jpg',
 	},
 	{
 		title: 'Our Team',
 		description: 'Our team consists of the best experts in the industry, learn about them',
-		image: './src/assets/images/teamwork.jpg',
+		image: './assets/images/teamwork.jpg',
 	},
 	{
 		title: 'Our servers',

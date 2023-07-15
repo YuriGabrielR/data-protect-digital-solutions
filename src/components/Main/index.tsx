@@ -12,7 +12,7 @@ export default function Main() {
 	
 		<Container>
 			
-			<MainVideo src="./src/assets/images/Main.mp4" autoPlay muted loop/>	
+			<MainVideo src="./assets/images/Main.mp4" autoPlay muted loop/>	
 
 			<MainHeading> Protect Your Data </MainHeading>
 
@@ -36,13 +36,6 @@ export default function Main() {
 
 		</Container>
 			
-
-		<Container>
-
-		{/* <MainImage src='./src/assets/svg/Secure-data-bro.svg'/> */}
-
-		</Container>
-
 
 	</MainSection>
   )
