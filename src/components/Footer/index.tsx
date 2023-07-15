@@ -14,6 +14,12 @@ import {
 import { footerData, footerSocialData } from '../../data/FooterData';
 import { Row, Section } from '../../styles/globalStyles';
 import { SiAlwaysdata } from 'react-icons/Si';
+import { IconType } from 'react-icons';
+
+
+
+const iconLogo = (Icon:IconType) => <Icon size="2rem" color="white" />;
+
 
 function Footer() {
 	return (
@@ -23,7 +29,7 @@ function Footer() {
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
 
-						<SiAlwaysdata/> 
+						{iconLogo(SiAlwaysdata)}
 							
 						</FooterLogo>
 						<FooterAddress>
