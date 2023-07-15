@@ -13,7 +13,7 @@ import {
 
 import { footerData, footerSocialData } from '../../data/FooterData';
 import { Row, Section } from '../../styles/globalStyles';
-import { SiAlwaysdata } from 'react-icons/Si';
+import {FaDatabase} from "react-icons/fa"
 import { IconType } from 'react-icons';
 
 
@@ -29,7 +29,7 @@ function Footer() {
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
 
-						{iconLogo(SiAlwaysdata)}
+						{iconLogo(FaDatabase)}
 							
 						</FooterLogo>
 						<FooterAddress>
